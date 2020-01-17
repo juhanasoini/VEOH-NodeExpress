@@ -27,7 +27,7 @@ app.use( ( req, res, next ) => {
 }); 
 
 app.get( '/', ( req, res, next ) => {
-	res.send( "Hello world" );
+	res.send( "Hello world again" );
 } );
 
 app.use( ( req, res, next ) => {
